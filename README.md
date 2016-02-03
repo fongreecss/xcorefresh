@@ -6,5 +6,5 @@
 git clone https://github.com/frasaleksander/xcorefresh.git xcf
 
 ###AFTER RUN:###
-./xcf/xcorefresh
+sudo chmod 750 -R xcf && ./xcf/xcorefresh
 
