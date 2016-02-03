@@ -5,6 +5,6 @@
 ###INSTALLATION (from terminal)###
 git clone https://github.com/frasaleksander/xcorefresh.git xcf
 
-###AFTER RUN:###
-sudo chmod 750 -R xcf && ./xcf/xcorefresh
+###NEXT RUN:###
+sudo chmod 750 -R xcf && sudo ./xcf/xcorefresh
 
