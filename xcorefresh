@@ -1,1 +1,108 @@
 #!/bin/bash
+#(X)UBUNTU CORE 15.10 STARTER PACK
+#ADDING REPOS
+sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
+#ICONS & THEME(optional)
+sudo add-apt-repository -y ppa:numix/ppa
+#PLANK
+sudo add-apt-repository -y ppa:ricotz/docky
+#UBUNTU MAKE
+sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make
+#SUBLIME TEXT 3
+sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+#JAVA
+sudo apt-add-repository -y ppa:webupd8team/java
+#XDMAN
+sudo add-apt-repository -y ppa:noobslab/apps
+#SYNAPSE INDICATOR (optional) - don't work ??? Synapse is not as cool
+#sudo add-apt-repository ppa:synapse-core/ppa
+#sudo add-apt-repository ppa:elementary-os/unstable-upstream
+#LAPTOP: TLP - Improve Battery Life and Reduce Overheating
+sudo add-apt-repository ppa:linrunner/tlp
+
+#!!!!!!!!!!UPDATE & UPGRADE!!!!!!!
+sudo apt-get update && sudo apt-get upgrade -y
+
+
+#SYSTEM
+sudo apt-get install -y testdisk htop hardinfo gparted pv bum gksu gnome-system-monitor bleachbit
+#PACKAGE MANAGERS 
+sudo apt-get install -y aptitude synaptic gdebi-core
+#SOFTWARE CENTER (maybe baybe)
+#sudo apt-get install -y software-center
+#ARCHIVE, EXTRACT...
+sudo apt-get install -y unace rar unrar p7zip-rar p7zip sharutils uudeview mpack arj cabextract lzip lunzip
+#DEVELOPER STUFF - some of them are ruby/gem installation dep. 
+#TODO: Install Ruby/Gems later. Look at ruby-1 & ruby-2 files!!!!!!!!!!!!!
+sudo apt-get install -y git gpp g++ curl tidy ubuntu-make build-essential zlib1g-dev libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+#JAVA - 
+sudo apt-get install -y oracle-java9-installer
+#NODEJS 5.x
+curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
+sudo apt-get install -y nodejs
+#SUBLIME TEXT
+sudo apt-get install -y sublime-text-installer
+#sudo apt-get install -y sublime-text
+#SUBLIMELINTER3 STUFF -- css & js
+sudo npm install -g csslint jshint
+#INSTALL BASIC (EVERYDAY STUFF):
+#Firefox (web browser)
+sudo apt-get install -y firefox
+#Chromium (web browser)
+#sudo apt-get install -y chromium-browser
+#Chrome
+sudo apt-get install -y google-chrome-stable
+#(x)ubuntu restricted extras (flashplayer, codecs, etc)
+sudo apt-get install -y xubuntu-restricted-extras
+sudo apt-get install -y ffmpeg gstreamer0.10-plugins-ugly libvdpau-va-gl1 libmad0 mpg321 gstreamer1.0-libav
+#Gnome terminal (or terminator)
+#sudo apt-get install -y gnome-terminal
+#Terminator terminal
+sudo apt-get install -y terminator
+#gedit (text editor)
+sudo apt-get install -y gedit
+#vlc (video player)
+sudo apt-get install -y vlc
+#Flash player
+sudo apt-get install -y flashplugin-installer pepperflashplugin-nonfree
+#deluge (torrent tracker)
+sudo apt-get install -y deluge
+#simplescreenrecorder (screen recording tool)
+sudo apt-get install -y simplescreenrecorder
+#catfish (file search)
+sudo apt-get install -y catfish
+#skype
+sudo apt-get install -y skype
+#numix theme &  icons (circle:))
+sudo apt-get install -y numix-icon-theme numix-icon-theme-circle
+#plank (docky)
+sudo apt-get install -y plank
+#xubuntu community wallpapers
+sudo apt-get install -y xubuntu-community-wallpapers
+#pinta (MSPAINT Alternative)
+sudo apt-get install -y pinta
+#inkscape - illustrator free alternative
+sudo apt-get install -y inkscape
+#GAMES - Emulators (scummvm gfceu dosbox)
+sudo apt-get install -y scummvm gfceu dosbox
+#DROPBOX - you shoud run dropbox (start menu) and  finnish install!!!
+sudo apt-get install -y nautilus-dropbox
+#virtualbox
+sudo apt-get install -y dkms virtualbox 
+#Wine (Wine is not an emulator) & playonlinux
+sudo apt-get install -y wine playonlinux
+#XDMAN
+sudo apt-get install -y xdman
+#INDICATOR SYNAPSE
+#sudo apt-get install indicator-synapse ?????????
+#TLP
+sudo apt-get install tlp tlp-rdw
+#USE IT LIKE: sudo tlp start
+
+#TODO: after all the installations try them (start menu or terminal)
+#nodejs, npm  
+#check version in terminal 
+#node -v 
+#npm -v
+
+#TODO: WEBSTORM, PHPSTORM, XAMPP, RUBY/GEMS
