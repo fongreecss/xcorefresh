@@ -6,7 +6,7 @@
 sudo git clone https://github.com/frasaleksander/xcorefresh.git xcf
 
 ###NEXT RUN:###
-sudo chmod 750 -R xcf && sudo ./xcf/xcorefresh
+sudo chmod 777 -R xcf && sudo ./xcf/xcorefresh
 
 ###REMOVE XCF DIR (optional)###
 sudo rm -r xfc
