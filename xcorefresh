@@ -54,7 +54,8 @@ sudo apt-get install -y firefox
 sudo apt-get install -y google-chrome-stable
 #(x)ubuntu restricted extras (flashplayer, codecs, etc)
 sudo apt-get install -y xubuntu-restricted-extras
-sudo apt-get install -y ffmpeg gstreamer0.10-plugins-ugly libvdpau-va-gl1 libmad0 mpg321 gstreamer1.0-libav
+#Some codecs (optional). Have encountered problems with libvdpau-va-gl1
+#sudo apt-get install -y ffmpeg gstreamer0.10-plugins-ugly libvdpau-va-gl1 libmad0 mpg321 gstreamer1.0-libav
 #Gnome terminal (or terminator)
 #sudo apt-get install -y gnome-terminal
 #Terminator terminal
