@@ -16,7 +16,7 @@ sudo apt-add-repository -y ppa:webupd8team/java
 sudo add-apt-repository -y ppa:noobslab/apps
 #SYNAPSE INDICATOR (optional) - don't work ??? Synapse is not as cool
 #sudo add-apt-repository ppa:synapse-core/ppa
-#sudo add-apt-repository ppa:elementary-os/unstable-upstream
+
 #LAPTOP: TLP - Improve Battery Life and Reduce Overheating
 sudo add-apt-repository ppa:linrunner/tlp
 
