@@ -50,8 +50,6 @@ sudo npm install -g csslint jshint
 sudo apt-get install -y firefox
 #Chromium (web browser)
 #sudo apt-get install -y chromium-browser
-#Chrome
-sudo apt-get install -y google-chrome-stable
 #(x)ubuntu restricted extras (flashplayer, codecs, etc)
 sudo apt-get install -y xubuntu-restricted-extras
 #Some codecs (optional). Have encountered problems with libvdpau-va-gl1
