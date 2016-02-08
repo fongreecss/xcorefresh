@@ -97,7 +97,7 @@ sudo apt-get install -y xdman
 #INDICATOR SYNAPSE
 #sudo apt-get install indicator-synapse ?????????
 #TLP
-sudo apt-get install tlp tlp-rdw
+sudo apt-get install -y tlp tlp-rdw
 #USE IT LIKE: sudo tlp start
 
 #TODO: after all the installations try them (start menu or terminal)
