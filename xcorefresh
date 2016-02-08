@@ -27,7 +27,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 #SYSTEM
 sudo apt-get install -y testdisk htop hardinfo gparted pv bum gksu gnome-system-monitor bleachbit
 #PACKAGE MANAGERS 
-sudo apt-get install -y aptitude synaptic gdebi-core
+sudo apt-get install -y aptitude synaptic gdebi
 #SOFTWARE CENTER (maybe baybe)
 #sudo apt-get install -y software-center
 #ARCHIVE, EXTRACT...
