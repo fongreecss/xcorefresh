@@ -25,7 +25,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 
 #SYSTEM
-sudo apt-get install -y testdisk htop hardinfo gparted pv bum gksu gnome-system-monitor bleachbit
+sudo apt-get install -y testdisk htop hardinfo gparted pv bum gksu gnome-system-monitor gnome-disk-utility bleachbit
 #PACKAGE MANAGERS 
 sudo apt-get install -y aptitude synaptic gdebi
 #SOFTWARE CENTER (maybe baybe)
