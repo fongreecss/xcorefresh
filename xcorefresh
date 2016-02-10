@@ -31,7 +31,7 @@ sudo apt-get install -y aptitude synaptic gdebi
 #SOFTWARE CENTER (maybe baybe)
 #sudo apt-get install -y software-center
 #ARCHIVE, EXTRACT...
-sudo apt-get install -y unace rar unrar p7zip-rar p7zip sharutils uudeview mpack arj cabextract lzip lunzip
+sudo apt-get install -y unace rar unrar unzip p7zip-rar p7zip sharutils uudeview mpack arj cabextract lzip lunzip file-roller
 #DEVELOPER STUFF - some of them are ruby/gem installation dep. 
 #TODO: Install Ruby/Gems later. Look at ruby-1 & ruby-2 files!!!!!!!!!!!!!
 sudo apt-get install -y git gpp g++ curl tidy ubuntu-make build-essential zlib1g-dev libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
