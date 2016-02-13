@@ -1,4 +1,4 @@
-#XCOREFRESH#
+#XCoreFresh#
 
 (X)ubuntu core 15.10 starter pack - Things I like to install on my xubuntu core fresh installation. Comment (#) stuff you don't want to install!
 
