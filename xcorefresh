@@ -99,6 +99,11 @@ sudo apt-get install -y xdman
 sudo apt-get install -y tlp tlp-rdw
 #USE IT LIKE: sudo tlp start
 
+#octave
+sudo add-apt-repository ppa:octave/stable
+sudo apt-get update
+sudo apt-get install octave
+
 #TODO: after all the installations try them (start menu or terminal)
 #nodejs, npm  
 #check version in terminal 
