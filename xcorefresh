@@ -22,8 +22,6 @@ sudo add-apt-repository -y ppa:linrunner/tlp
 
 #octave
 sudo add-apt-repository -y ppa:octave/stable
-#ubuntu tweaks
-sudo add-apt-repository -y ppa:tualatrix/ppa
 
 #!!!!!!!!!!UPDATE & UPGRADE!!!!!!!
 sudo apt-get update
@@ -43,9 +41,15 @@ sudo apt-get install -y unace rar unrar unzip p7zip-rar p7zip sharutils uudeview
 sudo apt-get install -y git gpp g++ curl tidy ubuntu-make build-essential zlib1g-dev libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
 #JAVA - 
 sudo apt-get install -y oracle-java8-installer
-#NODEJS 5.x
-curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
+#NODEJS 6.x - latest LTS
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
+#RUBY, GEMS, COMPASS
+sudo apt-get install ruby-full -y
+sudo gem update --system
+sudo su -c "gem install sass"
+sudo gem install compass
+
 #SUBLIME TEXT
 sudo apt-get install -y sublime-text-installer
 #sudo apt-get install -y sublime-text
