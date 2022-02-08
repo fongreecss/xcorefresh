@@ -4,7 +4,7 @@
 
 ###Installation###
 ```
-sudo git clone https://github.com/frasaleksander/xcorefresh.git xcf
+sudo git clone https://github.com/fongreecss/xcorefresh.git xcf
 ```
 ```
 sudo chmod 777 -R xcf && sudo /xcf/xcorefresh
